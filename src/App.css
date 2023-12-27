@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  width: 70vw;
+  margin: auto;
+  min-height: 100vh;
+  background-color: #152850;
+}
+.top-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 120px;
+}
+.image-heading {
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+.image-text {
+  font-family: 'roboto';
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 15px;
+}
+.bottom-section {
+  width: 85%;
+  margin: auto;
+}
+.search-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-heading {
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 30px;
+}
+.search-container {
+  display: flex;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 5px;
+}
+.input {
+  border: none;
+  height: 30px;
+  outline: none;
+  background-color: transparent;
+  font-size: 17px;
+}
+.icon {
+  color: #cbd5e1;
+}
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.video-section {
+  display: flex;
+}
+.image {
+  width: 150px;
+  height: 100px;
+  margin-right: 10px;
+}
+.name {
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
+}
+.genre {
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #3b82f6;
+  font-size: 20px;
+}
+.delete-container {
+  display: flex;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  margin-left: 20px;
+  cursor: pointer;
+}
